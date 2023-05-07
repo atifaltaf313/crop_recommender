@@ -13,7 +13,7 @@ st.set_page_config(page_title="Crop Recommender", page_icon="🌿", layout='cent
 #         model = pickle.load(f)
 #     return model
 
-
+import joblib
 def load_model(model_path):
     with open(model_path, 'rb') as f:
         model = joblib.load(f)
