@@ -1,14 +1,14 @@
-Crop Recommender
+## Crop Recommender
 This is a web application that helps farmers select the most suitable crop to plant based on the characteristics of their soil and the weather conditions of their region. It uses machine learning to make predictions based on historical data and provides recommendations to users on which crops are likely to yield the best results.
 
-How it works
+## How it works
 The app takes as input the soil type and weather conditions of the user's region, and uses a Naive Bayes classification model to predict which crops are most suitable for cultivation in that area. The model was trained on a dataset containing information on various crops and their corresponding characteristics, such as required pH level, temperature, rainfall, and humidity.
 
-Getting started
+## Getting started
 To run the app on your local machine, you'll need to install Streamlit and scikit-learn libraries using pip. You can do this by running the following commands in your terminal:
 
 
-Installation
+## Installation
 To use this project, you will need to have Python 3.x installed on your system along with the following libraries:
 
 pandas
@@ -23,7 +23,7 @@ Once you have installed the required libraries, you can clone the repository to 
 bash
 Copy code
 git clone https://github.com/atifaltaf313/crop-recommender.git
-Usage
+## Usage
 To use the crop recommender system, you need to run the myapp.py file in your terminal or command prompt using the following command:
 
 arduino
@@ -41,11 +41,10 @@ Copy code
 streamlit run myapp.py
 This will start the app on your local machine, and you can access it by navigating to the URL displayed in your terminal.
 
-Usage
-Once the app is running, you can enter the details of your region, such as soil type and weather conditions, in the input fields provided. Click on the "Predict" button to get a list of recommended crops based on your input.
+## Usage
+Once the app is running, you can enter the details of such as soil type and weather conditions, in the input fields provided. Click on the "Predict" button to get a list of recommended crops based on your input.
 
-License
-This project is licensed under the MIT License. Feel free to use it for your own purposes or modify it to suit your needs.
 
-Acknowledgements
+
+## Acknowledgements
 This project was completed as part of a final year project by M. Atif Altaf. The author would like to thank their supervisor and colleagues for their support and guidance throughout the project.
