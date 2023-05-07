@@ -57,7 +57,7 @@ def main():
         
         if st.button('Predict'):
 
-            model = load_model(r'C:\Users\Muhammad Atif Altaf\Desktop\project\NBClassifier.pkl')
+            model = load_model('NBClassifier.pkl')
             prediction = model.predict(single_pred)
             col1.write('''
 		    ## Results 🔍 
