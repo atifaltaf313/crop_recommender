@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import warnings
-!pip install joblib
+import joblib
 
 st.set_page_config(page_title="Crop Recommender", page_icon="🌿", layout='centered', initial_sidebar_state="collapsed")
 
@@ -13,7 +13,6 @@ st.set_page_config(page_title="Crop Recommender", page_icon="🌿", layout='cent
 #         model = pickle.load(f)
 #     return model
 
-import joblib
 def load_model(model_path):
     with open(model_path, 'rb') as f:
         model = joblib.load(f)
